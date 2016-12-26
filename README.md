@@ -1,6 +1,6 @@
 # Тестовое задание Laravel TO-DO
 ### Реализация
-[To-Do List](www.saymecode.ho.ua)
+[To-Do List](http://saymecode.ho.ua)
 
 ### Описание
 Создать простое приложение для ведения задач.
