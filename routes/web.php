@@ -29,8 +29,3 @@ Route::delete('task/{id}', [
     'as' => 'task.destroy',
     'uses' => 'TaskController@destroy'
 ])->where('id', '[0-9]+');
-
-Route::post('update/{id}', [
-    'as' => 'task.update',
-    'uses' => 'TaskController@update'
-])->where('id', '[0-9]+');

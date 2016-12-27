@@ -53,12 +53,4 @@ class TaskController extends Controller
 
         return response()->json(['success' => true]);
     }
-
-    public function update(Request $request)
-    {
-        $model = Task::find($request->id);
-        $model->name = $request->name;
-        $model->idCategory = $request->idCategory;
-        return response()->json(['success' => true]);
-    }
 }

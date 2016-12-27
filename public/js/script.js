@@ -31,6 +31,9 @@ function openTaskForm() {
             $('#task-form [name="name"]').val($(this).data('name'));
             $('#task-form [name="idCategory"] option[value="' + $(this).data('id-category') + '"]').prop('selected', true);
         }
+        else {
+            $('#task-form [name="id"]').val(0);
+        }
     });
 }
 
